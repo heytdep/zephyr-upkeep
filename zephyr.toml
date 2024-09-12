@@ -1,0 +1,34 @@
+name = "zephyr-upkeep"
+
+[[tables]]
+name = "jobs"
+
+[[tables.columns]]
+name = "name"
+col_type = "BYTEA"
+primary = true
+
+[[tables.columns]]
+name = "creator"
+col_type = "BYTEA"
+
+
+[[tables.columns]]
+name = "interval"
+col_type = "BIGINT"
+
+[[tables.columns]]
+name = "function"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "contract"
+col_type = "BYTEA"
+
+[[tables.columns]]
+name = "last"
+col_type = "BIGINT"
+
+[[tables.columns]]
+name = "balance"
+col_type = "BIGINT"
